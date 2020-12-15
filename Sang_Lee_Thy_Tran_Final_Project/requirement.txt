@@ -1,0 +1,5 @@
+Library packages required are:
+cv2 or opencv-python3 with the latest version
+numpy
+dlib
+sys
