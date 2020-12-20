@@ -1,5 +1,6 @@
 Library packages required are:
 cv2 or opencv-python3 with the latest version
-numpy
-dlib
-sys
+import sys
+import dlib
+import numpy as np
+from scipy.spatial.qhull import Delaunay

@@ -87,7 +87,8 @@ From the above, we apply a mask to extract only the face from the first video to
 
 ### Delaunay triangulation
 
-Because the first face might not have the same dimension, orientation or resolution as the second face, we need to perform Delaunay triangulation on the first face and second face. Then, we find and transform corresponding triangles on the first face on the second face. 
+Because the first face might not have the same dimension, orientation or resolution as the second face, we need to perform Delaunay triangulation on the first face and second face. 
+Then, we warp corresponding triangles on the first face on the second face. 
 
 | Full face triangulation | Corresponding triangles between two videos |
 |---|---|
